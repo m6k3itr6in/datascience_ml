@@ -73,6 +73,26 @@ DS/
     │           ├── lasso_ridge.py          # Сравнение Lasso, Ridge и ElasticNet на синтетических данных с шумом
     │           └── regularization_battle.csv # Сгенерированный набор данных для тестирования моделей
     │
+    ├──orelen_geron_ml_book/
+    │   ├──chapter_1/
+    │   ├──chapter_2/
+    │   │   └── 1.py                         # Пример работы с train_test_split в scikit-learn и split_train_test_by_id 
+    │   ├──chapter_3/
+    │   ├──chapter_4/
+    │   ├──chapter_5/
+    │   ├──chapter_6/
+    │   ├──chapter_7/
+    │   ├──chapter_8/
+    │   ├──chapter_9/
+    │   ├──chapter_10/
+    │   ├──chapter_11/
+    │   ├──chapter_12/
+    │   ├──chapter_13/
+    │   ├──chapter_14/
+    │   ├──chapter_15/
+    │   └──chapter_16/
+    │
+    │
     ├── resources/                          # Вспомогательные графические и текстовые материалы
     │   └── roadmap.jpg                     # Дорожная карта обучения / пайплайн проекта
     │
