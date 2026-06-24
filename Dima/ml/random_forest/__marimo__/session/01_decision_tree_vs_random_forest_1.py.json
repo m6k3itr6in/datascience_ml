@@ -1,0 +1,29 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.20.4",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "31b7164d87c930ae241b8abfa8fd6056",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\u0414\u0430\u043d\u043d\u044b\u0435 \u0442\u0435\u043b\u0435\u043a\u043e\u043c\u0430 \u0441\u0433\u0435\u043d\u0435\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u044b!\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    }
+  ]
+}

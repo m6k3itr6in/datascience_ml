@@ -1,0 +1,49 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.20.4",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "9feaae7cc95d5fe3bf853b0ff75fff2c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\u0414\u0430\u043d\u043d\u044b\u0435 \u0442\u0435\u043b\u0435\u043a\u043e\u043c\u0430 \u0441\u0433\u0435\u043d\u0435\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u044b!\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "94be16f640fe48405e90b35b483e8719",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='MJUe-0' random-id='dcf0fecd-691d-5d90-7ce9-906d06f2910e'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;id&#92;&quot;:9000,&#92;&quot;proba&#92;&quot;:0.06,&#92;&quot;churn&#92;&quot;:0},{&#92;&quot;id&#92;&quot;:9001,&#92;&quot;proba&#92;&quot;:0.43,&#92;&quot;churn&#92;&quot;:0},{&#92;&quot;id&#92;&quot;:9002,&#92;&quot;proba&#92;&quot;:0.42,&#92;&quot;churn&#92;&quot;:0},{&#92;&quot;id&#92;&quot;:9003,&#92;&quot;proba&#92;&quot;:0.79,&#92;&quot;churn&#92;&quot;:1},{&#92;&quot;id&#92;&quot;:9004,&#92;&quot;proba&#92;&quot;:0.82,&#92;&quot;churn&#92;&quot;:1},{&#92;&quot;id&#92;&quot;:9005,&#92;&quot;proba&#92;&quot;:0.57,&#92;&quot;churn&#92;&quot;:1},{&#92;&quot;id&#92;&quot;:9006,&#92;&quot;proba&#92;&quot;:0.68,&#92;&quot;churn&#92;&quot;:1},{&#92;&quot;id&#92;&quot;:9007,&#92;&quot;proba&#92;&quot;:0.67,&#92;&quot;churn&#92;&quot;:1},{&#92;&quot;id&#92;&quot;:9008,&#92;&quot;proba&#92;&quot;:0.55,&#92;&quot;churn&#92;&quot;:1},{&#92;&quot;id&#92;&quot;:9009,&#92;&quot;proba&#92;&quot;:0.47,&#92;&quot;churn&#92;&quot;:0}]&quot;' data-total-rows='100' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;id&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;proba&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;churn&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false' data-download-file-name='&quot;df&quot;'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "f1_score: 0.62, roc_auc: 0.85\n\u041b\u0443\u0447\u0448\u0438\u0439 \u043f\u043e\u0440\u043e\u0433: 0.55 \u0441 F1: 0.63\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    }
+  ]
+}

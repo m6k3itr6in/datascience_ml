@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+.venv/
+env/
+.vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter/Marimo local files
+.ipynb_checkpoints/
+.marimo/
+
+# Databases (ignoring large database files)
+*.sqlite
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated data files at the root
+regularization_battle.csv

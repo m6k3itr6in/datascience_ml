@@ -1,0 +1,68 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.20.4",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "f9845339dce1335b8dcdcf5e5ab503df",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "cf6bd65cc2e6e7f01ec32d59fcbef7c8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "9ba035d296939d5b46daf803596cc9b2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "6eebf490639a4000711a0743e08f4936",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='bkHC-0' random-id='f46dad3a-f94d-44e3-1944-e96b4b27fd18'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;true_1&#92;&quot;,&#92;&quot;No Regularization&#92;&quot;:11.09519131018738,&#92;&quot;Lasso (L1): C = 0.01&#92;&quot;:0.14472259632250556,&#92;&quot;Lasso (L1): C = 0.1&#92;&quot;:1.1568153965031764,&#92;&quot;Lasso (L1): C = 100.0&#92;&quot;:12.215268198617016,&#92;&quot;Ridge (L2): C = 0.01&#92;&quot;:0.260614241170499,&#92;&quot;Ridge (L2): C = 0.1&#92;&quot;:0.43298555298413743,&#92;&quot;Ridge (L2): C = 100.0&#92;&quot;:4.026904753626674,&#92;&quot;ElasticNet (L1 + L2): C = 0.1, L1 &amp; L2 = 0.5&#92;&quot;:0.41802391523626903},{&#92;&quot;&#92;&quot;:&#92;&quot;true_2&#92;&quot;,&#92;&quot;No Regularization&#92;&quot;:-15.119470929066601,&#92;&quot;Lasso (L1): C = 0.01&#92;&quot;:-0.44732883324788447,&#92;&quot;Lasso (L1): C = 0.1&#92;&quot;:-1.6810125106202287,&#92;&quot;Lasso (L1): C = 100.0&#92;&quot;:-14.23046846617076,&#92;&quot;Ridge (L2): C = 0.01&#92;&quot;:-0.4893102840404736,&#92;&quot;Ridge (L2): C = 0.1&#92;&quot;:-0.8950804563181977,&#92;&quot;Ridge (L2): C = 100.0&#92;&quot;:-5.7353658922154676,&#92;&quot;ElasticNet (L1 + L2): C = 0.1, L1 &amp; L2 = 0.5&#92;&quot;:-0.8800530389440004},{&#92;&quot;&#92;&quot;:&#92;&quot;corr_1a&#92;&quot;,&#92;&quot;No Regularization&#92;&quot;:8.4639948808335,&#92;&quot;Lasso (L1): C = 0.01&#92;&quot;:0.0,&#92;&quot;Lasso (L1): C = 0.1&#92;&quot;:0.0,&#92;&quot;Lasso (L1): C = 100.0&#92;&quot;:1.7292712192825164,&#92;&quot;Ridge (L2): C = 0.01&#92;&quot;:0.2599682568084356,&#92;&quot;Ridge (L2): C = 0.1&#92;&quot;:0.431330990431647,&#92;&quot;Ridge (L2): C = 100.0&#92;&quot;:3.1498071741387674,&#92;&quot;ElasticNet (L1 + L2): C = 0.1, L1 &amp; L2 = 0.5&#92;&quot;:0.4111581955240179},{&#92;&quot;&#92;&quot;:&#92;&quot;corr_1b&#92;&quot;,&#92;&quot;No Regularization&#92;&quot;:-18.037514454516256,&#92;&quot;Lasso (L1): C = 0.01&#92;&quot;:0.0,&#92;&quot;Lasso (L1): C = 0.1&#92;&quot;:0.0,&#92;&quot;Lasso (L1): C = 100.0&#92;&quot;:-12.433279938013845,&#92;&quot;Ridge (L2): C = 0.01&#92;&quot;:0.25919237718550203,&#92;&quot;Ridge (L2): C = 0.1&#92;&quot;:0.4260263187747932,&#92;&quot;Ridge (L2): C = 100.0&#92;&quot;:-5.678331271537456,&#92;&quot;ElasticNet (L1 + L2): C = 0.1, L1 &amp; L2 = 0.5&#92;&quot;:0.38748038870669127},{&#92;&quot;&#92;&quot;:&#92;&quot;corr_2a&#92;&quot;,&#92;&quot;No Regularization&#92;&quot;:12.99040680289227,&#92;&quot;Lasso (L1): C = 0.01&#92;&quot;:0.0,&#92;&quot;Lasso (L1): C = 0.1&#92;&quot;:0.0,&#92;&quot;Lasso (L1): C = 100.0&#92;&quot;:12.119216833644947,&#92;&quot;Ridge (L2): C = 0.01&#92;&quot;:-0.4878294059343639,&#92;&quot;Ridge (L2): C = 0.1&#92;&quot;:-0.8881605833000488,&#92;&quot;Ridge (L2): C = 100.0&#92;&quot;:3.6294605859846043,&#92;&quot;ElasticNet (L1 + L2): C = 0.1, L1 &amp; L2 = 0.5&#92;&quot;:-0.8537620239554424},{&#92;&quot;&#92;&quot;:&#92;&quot;noise_0&#92;&quot;,&#92;&quot;No Regularization&#92;&quot;:0.07342240338127201,&#92;&quot;Lasso (L1): C = 0.01&#92;&quot;:0.0,&#92;&quot;Lasso (L1): C = 0.1&#92;&quot;:0.0,&#92;&quot;Lasso (L1): C = 100.0&#92;&quot;:0.07299741605042312,&#92;&quot;Ridge (L2): C = 0.01&#92;&quot;:0.04943504733107671,&#92;&quot;Ridge (L2): C = 0.1&#92;&quot;:0.06682009530600451,&#92;&quot;Ridge (L2): C = 100.0&#92;&quot;:0.07224306578354904,&#92;&quot;ElasticNet (L1 + L2): C = 0.1, L1 &amp; L2 = 0.5&#92;&quot;:0.013254283032193613},{&#92;&quot;&#92;&quot;:&#92;&quot;noise_1&#92;&quot;,&#92;&quot;No Regularization&#92;&quot;:-0.12652204356036909,&#92;&quot;Lasso (L1): C = 0.01&#92;&quot;:0.0,&#92;&quot;Lasso (L1): C = 0.1&#92;&quot;:0.0,&#92;&quot;Lasso (L1): C = 100.0&#92;&quot;:-0.11939152396708394,&#92;&quot;Ridge (L2): C = 0.01&#92;&quot;:-0.04274478651307904,&#92;&quot;Ridge (L2): C = 0.1&#92;&quot;:-0.09532432791505496,&#92;&quot;Ridge (L2): C = 100.0&#92;&quot;:-0.12146427543510546,&#92;&quot;ElasticNet (L1 + L2): C = 0.1, L1 &amp; L2 = 0.5&#92;&quot;:-0.0415427194798546},{&#92;&quot;&#92;&quot;:&#92;&quot;noise_2&#92;&quot;,&#92;&quot;No Regularization&#92;&quot;:-0.07100052733875858,&#92;&quot;Lasso (L1): C = 0.01&#92;&quot;:0.0,&#92;&quot;Lasso (L1): C = 0.1&#92;&quot;:0.0,&#92;&quot;Lasso (L1): C = 100.0&#92;&quot;:-0.07213599786738285,&#92;&quot;Ridge (L2): C = 0.01&#92;&quot;:-0.0217690667665825,&#92;&quot;Ridge (L2): C = 0.1&#92;&quot;:-0.05512400704911856,&#92;&quot;Ridge (L2): C = 100.0&#92;&quot;:-0.06918134530025447,&#92;&quot;ElasticNet (L1 + L2): C = 0.1, L1 &amp; L2 = 0.5&#92;&quot;:-0.0060068786594744995},{&#92;&quot;&#92;&quot;:&#92;&quot;noise_3&#92;&quot;,&#92;&quot;No Regularization&#92;&quot;:0.02431646147554807,&#92;&quot;Lasso (L1): C = 0.01&#92;&quot;:0.0,&#92;&quot;Lasso (L1): C = 0.1&#92;&quot;:0.0,&#92;&quot;Lasso (L1): C = 100.0&#92;&quot;:0.02562972541876703,&#92;&quot;Ridge (L2): C = 0.01&#92;&quot;:0.014494519761023578,&#92;&quot;Ridge (L2): C = 0.1&#92;&quot;:0.016981319695940373,&#92;&quot;Ridge (L2): C = 100.0&#92;&quot;:0.017464781182751292,&#92;&quot;ElasticNet (L1 + L2): C = 0.1, L1 &amp; L2 = 0.5&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;noise_4&#92;&quot;,&#92;&quot;No Regularization&#92;&quot;:-0.21875605495603057,&#92;&quot;Lasso (L1): C = 0.01&#92;&quot;:0.0,&#92;&quot;Lasso (L1): C = 0.1&#92;&quot;:-0.059367168909423305,&#92;&quot;Lasso (L1): C = 100.0&#92;&quot;:-0.2154595142770963,&#92;&quot;Ridge (L2): C = 0.01&#92;&quot;:-0.07098731588595814,&#92;&quot;Ridge (L2): C = 0.1&#92;&quot;:-0.16483637551252056,&#92;&quot;Ridge (L2): C = 100.0&#92;&quot;:-0.21292461862791298,&#92;&quot;ElasticNet (L1 + L2): C = 0.1, L1 &amp; L2 = 0.5&#92;&quot;:-0.11178597729456358}]&quot;' data-total-rows='20' data-total-columns='8' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;No Regularization&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Lasso (L1): C = 0.01&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Lasso (L1): C = 0.1&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Lasso (L1): C = 100.0&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Ridge (L2): C = 0.01&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Ridge (L2): C = 0.1&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Ridge (L2): C = 100.0&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;ElasticNet (L1 + L2): C = 0.1, L1 &amp; L2 = 0.5&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false' data-download-file-name='&quot;df&quot;'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "C:\\Users\\dimas\\Desktop\\DS\\venv\\Lib\\site-packages\\sklearn\\linear_model\\_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.\n  warnings.warn(\nC:\\Users\\dimas\\Desktop\\DS\\venv\\Lib\\site-packages\\sklearn\\linear_model\\_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.\n  warnings.warn(\nC:\\Users\\dimas\\Desktop\\DS\\venv\\Lib\\site-packages\\sklearn\\linear_model\\_logistic.py:1160: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.\n  warnings.warn(\nC:\\Users\\dimas\\Desktop\\DS\\venv\\Lib\\site-packages\\sklearn\\linear_model\\_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.\n  warnings.warn(\nC:\\Users\\dimas\\Desktop\\DS\\venv\\Lib\\site-packages\\sklearn\\linear_model\\_logistic.py:1160: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.\n  warnings.warn(\nC:\\Users\\dimas\\Desktop\\DS\\venv\\Lib\\site-packages\\sklearn\\linear_model\\_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.\n  warnings.warn(\nC:\\Users\\dimas\\Desktop\\DS\\venv\\Lib\\site-packages\\sklearn\\linear_model\\_logistic.py:1160: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.\n  warnings.warn(\nC:\\Users\\dimas\\Desktop\\DS\\venv\\Lib\\site-packages\\sklearn\\svm\\_base.py:1258: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.\n  warnings.warn(\nC:\\Users\\dimas\\Desktop\\DS\\venv\\Lib\\site-packages\\sklearn\\linear_model\\_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.\n  warnings.warn(\nC:\\Users\\dimas\\Desktop\\DS\\venv\\Lib\\site-packages\\sklearn\\linear_model\\_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.\n  warnings.warn(\nC:\\Users\\dimas\\Desktop\\DS\\venv\\Lib\\site-packages\\sklearn\\linear_model\\_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.\n  warnings.warn(\nC:\\Users\\dimas\\Desktop\\DS\\venv\\Lib\\site-packages\\sklearn\\linear_model\\_logistic.py:1135: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', and C=np.inf instead of penalty=None.\n  warnings.warn(\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    }
+  ]
+}
