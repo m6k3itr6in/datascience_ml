@@ -53,26 +53,32 @@ DS/
     │   │   └── fraud_detection/            # Выявление мошеннических транзакций
     │   │       └── logistic_regression.py  # Генерация несбалансированных классов и оценка Precision-Recall
     │   │
-    │   └── linear_regression/              # Варианты линейной регрессии (Linear Regression)
-    │       ├── 01_theory_and_basics/       # Теоретические основы и базовая модель
-    │       │   └── linear_regression.py    # Расчет MSE вручную и сравнение с готовой LinearRegression
-    │       ├── 02_manual_gradient/         # Градиентный спуск вручную
-    │       │   └── gradient.py             # Реализация шагов обучения (dw, db) на чистом NumPy
-    │       ├── 03_lin_marketing/           # Линейная модель на маркетинговых данных
-    │       │   └── lin.py                  # Оценка влияния бюджетов рекламы (TV, Social, Radio) на продажи
-    │       ├── 04_tabular_insurance/       # Линейная модель на реальных табличных данных
-    │       │   ├── insurance.py            # Масштабирование признаков, One-Hot-Encoding категорий
-    │       │   └── insurance.csv           # Исходный датасет страховых выплат
-    │       ├── 05_lasso_regularization/    # Борьба с мультиколлинеарностью и отбор признаков
-    │       │   └── lasso.py                # Сравнение обычной LinearRegression и Lasso на зашумленных данных
-    │       ├── 06_end_to_end_pipeline/     # Полноценный пайплайн предсказания цен недвижимости
-    │       │   ├── end-to-end.py           # Предобработка, заполнение пропусков, Lasso регрессия
-    │       │   ├── train_dirty_houses.csv  # "Грязные" тренировочные данные недвижимости
-    │       │   └── prod_new_houses.csv     # Новые дома для оценки стоимости на проде
-    │       └── 07_regularization/          # Регуляризация (L1/L2/ElasticNet) и борьба с мультиколлинеарностью
-    │           ├── lasso_ridge.py          # Сравнение Lasso, Ridge и ElasticNet на синтетических данных с шумом
-    │           └── regularization_battle.csv # Сгенерированный набор данных для тестирования моделей
-    │
+    │   ├── linear_regression/              # Варианты линейной регрессии (Linear Regression)
+    │   │    ├── 01_theory_and_basics/       # Теоретические основы и базовая модель
+    │   │    │   └── linear_regression.py    # Расчет MSE вручную и сравнение с готовой LinearRegression
+    │   │    ├── 02_manual_gradient/         # Градиентный спуск вручную
+    │   │    │   └── gradient.py             # Реализация шагов обучения (dw, db) на чистом NumPy
+    │   │    ├── 03_lin_marketing/           # Линейная модель на маркетинговых данных
+    │   │    │   └── lin.py                  # Оценка влияния бюджетов рекламы (TV, Social, Radio) на продажи
+    │   │    ├── 04_tabular_insurance/       # Линейная модель на реальных табличных данных
+    │   │    │   ├── insurance.py            # Масштабирование признаков, One-Hot-Encoding категорий
+    │   │    │   └── insurance.csv           # Исходный датасет страховых выплат
+    │   │    ├── 05_lasso_regularization/    # Борьба с мультиколлинеарностью и отбор признаков
+    │   │    │   └── lasso.py                # Сравнение обычной LinearRegression и Lasso на зашумленных данных
+    │   │    ├── 06_end_to_end_pipeline/     # Полноценный пайплайн предсказания цен недвижимости
+    │   │    │   ├── end-to-end.py           # Предобработка, заполнение пропусков, Lasso регрессия
+    │   │    │   ├── train_dirty_houses.csv  # "Грязные" тренировочные данные недвижимости
+    │   │    │   └── prod_new_houses.csv     # Новые дома для оценки стоимости на проде
+    │   │    └── 07_regularization/          # Регуляризация (L1/L2/ElasticNet) и борьба с мультиколлинеарностью
+    │   │        ├── lasso_ridge.py          # Сравнение Lasso, Ridge и ElasticNet на синтетических данных с шумом
+    │   │        └── regularization_battle.csv # Сгенерированный набор данных для тестирования моделей
+    │   │
+    │   └── random_forest/
+    │       ├── 01_decision_tree_vs_random_forest/       # Теоретические основы и базовая модель
+    │       ├── 01_decision_tree_vs_random_forest.py    # 
+    │       ├── prod_telecom.csv #
+    │       └── train_telecom.csv #
+    │       
     ├──orelen_geron_ml_book/
     │   ├──chapter_1/
     │   ├──chapter_2/
